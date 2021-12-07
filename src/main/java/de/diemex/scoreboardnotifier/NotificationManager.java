@@ -63,7 +63,7 @@ public class NotificationManager implements Listener
      * @param player          player for whom to show it
      * @param type            type defines color and length
      * @param scoreboardTitle scoreboard title is used
-     * @param msg             message text already cut into lines with length <= 16
+     * @param msg             message text already cut into lines with length <= 40
      *
      * @return a boolean for whatever reason I cant remember
      */
@@ -135,7 +135,7 @@ public class NotificationManager implements Listener
      * @param titleColor      color of the title line
      * @param textColor       general textcolor of the message
      * @param scoreboardTitle scoreboard title is used
-     * @param msg             message text already cut into lines with length <= 16
+     * @param msg             message text already cut into lines with length <= 40
      *
      * @return a boolean for whatever reason I cant remember
      */

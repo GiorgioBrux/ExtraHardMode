@@ -111,7 +111,7 @@ public class NotificationHolder
     /**
      * Get the lines of text
      *
-     * @return the lines of text with a max of 16 chars per line
+     * @return the lines of text with a max of 40 chars per line
      */
     public List<String> getMsg()
     {

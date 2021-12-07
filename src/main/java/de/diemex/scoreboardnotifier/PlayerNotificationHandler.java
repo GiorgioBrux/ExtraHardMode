@@ -215,7 +215,7 @@ public class PlayerNotificationHandler
                     score.setScore(lastLine--);
                 }
 
-                StringBuilder sb = new StringBuilder(StringUtils.repeat("-", 16));
+                StringBuilder sb = new StringBuilder(StringUtils.repeat("-", 40));
                 sb.setCharAt(separator < 16 ? separator++ : 0, '='); //Maximum of 16 messages at a time...
                 if (i != 1) //not last line
                     objective.getScore(sb.toString()).setScore(lastLine--);
